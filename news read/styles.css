@@ -1,0 +1,103 @@
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set black background for the body */
+  body {
+    background-color: #000;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #B50000; /* Reddish color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Center alignment */
+  .center-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Big logo styles */
+  .logo-big img {
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  /* Search box styles */
+  .search-box input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-box button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #B50000; /* Reddish color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #B50000; /* Reddish color */
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  
+  footer nav ul {
+    list-style: none;
+  }
+  
+  footer nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
